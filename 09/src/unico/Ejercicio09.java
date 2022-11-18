@@ -40,9 +40,9 @@ public class Ejercicio09 {
 
 	public static int sumaDivisores(int n) {
 		int suma = 0;
-		for (int i = 1; i < n; i++) {
+		for (int i = 1; i <= n; i++) {
 			if (n % i == 0) {
-				suma += 1;
+				suma += i;
 			}
 		}
 		return suma;
