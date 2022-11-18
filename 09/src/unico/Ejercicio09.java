@@ -31,7 +31,7 @@ public class Ejercicio09 {
 		boolean amigo = false;
 		int sumaDiv1 = sumaDivisores(n1);
 		int sumaDiv2 = sumaDivisores(n2);
-			if (sumaDiv1 == sumaDiv2) {
+			if (sumaDiv1==n2 && sumaDiv2==n1) {
 				amigo = true;
 			}
 		
